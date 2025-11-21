@@ -10,12 +10,15 @@ namespace Verifica
     {
         string nome;
         string indirizzo;
-        int OrariApertura;
-        int OrariChiusura;
+        int orariApertura;
+        int orariChiusura;
 
-        public Biblioteca() 
+        public Biblioteca(string nome, string indirizzo,int orariApertura, int orariChiusura) 
         {
-
+            nome = nome;
+            indirizzo = indirizzo;
+            orariApertura = orariApertura;
+            orariChiusura = orariChiusura;
         }
     }
 }
