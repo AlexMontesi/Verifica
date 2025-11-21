@@ -8,5 +8,14 @@ namespace Verifica
 {
     internal class Biblioteca
     {
+        string nome;
+        string indirizzo;
+        int OrariApertura;
+        int OrariChiusura;
+
+        public Biblioteca() 
+        {
+
+        }
     }
 }
