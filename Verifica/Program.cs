@@ -10,7 +10,7 @@ namespace Verifica
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Libro);
+            Console.WriteLine(Libro);//commento di aggiunta
         }
     }
 }
