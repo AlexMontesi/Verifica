@@ -10,6 +10,7 @@ namespace Verifica
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Libro);
         }
     }
 }
